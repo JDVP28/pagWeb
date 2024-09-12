@@ -1,0 +1,108 @@
+html, body {
+    height: 100%;
+    margin: 20px;
+    background-color: rgb(68, 54, 95);
+}
+
+/* Estilo para el contenedor con borde neón y animación */
+div {
+    background-color: rgba(197, 196, 199, 0.75);
+    min-height: 200px;
+    height: auto;
+    min-width: 1200px;
+    width: auto;
+    display: flex;
+    flex-direction: column; /* Para alinear elementos en columna */
+    justify-content: center;
+    align-items: center; /* Centra horizontalmente */
+    margin: auto;
+    border-radius: 12px;
+    border: 8px solid transparent; /* Borde transparente para el efecto neón */
+    box-shadow: 0 0 10px aquamarine, 0 0 20px aquamarine, 0 0 30px aquamarine, 0 0 40px aquamarine;
+}
+
+
+h1 {
+    margin-bottom: 40px; /* Espacio debajo del h1 */
+    text-align: center; /* Centrar el texto */
+    color: rgb(0, 0, 0); /* Color del texto */
+}
+
+table {
+
+    border-collapse: collapse;
+    margin: auto;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #0f0f11b7; /* Color de fondo para las celdas de encabezado */
+    color: white;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+.btn {
+    padding: 20px 40px;
+    background-color: aquamarine; /* Gris medio */
+    color: rgb(8, 8, 8);
+    border: 5px;
+    border-radius: 10px;
+    font-size: 16px;
+    display: flex;
+    flex-direction: row;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    margin: 10px 20px; /* Espacio arriba y abajo de cada botón */
+    align-items: center;
+    justify-content: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100vh;
+    margin: 0;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+table, th, td {
+    border: 1px solid #ddd;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff4c4c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ff1a1a;
+}
